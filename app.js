@@ -62,7 +62,7 @@ app.use(session({
     resave: false,
     saveUninitialized: false,
     store:MongoStore.create({
-        mongoUrl: 'mongodb+srv://gana18:gana18062003@storybook.vedji7t.mongodb.net/?retryWrites=true&w=majority',
+        mongoUrl:process.env.MONGO_URI,
     collectinName: "sessions",
     stringify: false
     })
