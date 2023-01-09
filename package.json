@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "app to create public and private story books",
   "main": "app.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-    "start": "cross-env NODE_ENV=production node app",
+    "start": "node app.js",
     "dev": "cross-env NODE_ENV=production nodemon app"
   },
   "author": "gana sai teja",
