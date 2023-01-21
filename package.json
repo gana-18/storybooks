@@ -7,7 +7,7 @@
     "node": "14.x"
   },
   "scripts": {
-    "start": "node app.js",
+    "start": "cross-env NODE_ENV=production node app",
     "dev": "cross-env NODE_ENV=production nodemon app"
   },
   "author": "gana sai teja",
