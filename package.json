@@ -4,7 +4,7 @@
   "description": "app to create public and private story books",
   "main": "app.js",
   "engines": {
-    "node": "14.x"
+    "node": "18.x"
   },
   "scripts": {
     "start": "cross-env NODE_ENV=production node app",
